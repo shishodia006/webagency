@@ -94,9 +94,10 @@ export default function ServicesPage() {
         <h2 className="text-3xl font-bold mb-4">
           Ready to take your business to the next level?
         </h2>
-        <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-100">
-          Let’s work together to build something amazing for your brand.
-        </p>
+      <p className="text-lg mb-6 max-w-2xl mx-auto text-gray-100">
+  Let’s work together to build something amazing for your brand.
+</p>
+
         <a
           href="/contact"
           className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-xl shadow-lg hover:scale-105 transition transform"

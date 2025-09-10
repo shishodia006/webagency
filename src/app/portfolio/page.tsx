@@ -3,7 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const portfolioItems = [
   {
     title: "3D Character Modeling",
@@ -76,7 +76,7 @@ export default function PortfolioPage() {
             >
               {/* Image */}
               <div className="overflow-hidden">
-                <img
+                <Image
                   src={item.image}
                   alt={item.title}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"

@@ -59,7 +59,7 @@ export default function ServicesPage() {
       >
         <h1 className="text-5xl font-bold mb-4">Our Services</h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-         "Your All-in-One Partner for Web, Design, 3D & Cloud Solutions"
+         &quot;Your All-in-One Partner for Web, Design, 3D &amp; Cloud Solutions&quot;
         </p>
       </motion.section>
 

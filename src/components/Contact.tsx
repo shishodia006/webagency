@@ -48,7 +48,7 @@ const ContactUs = () => {
   return (
     <section
       id="contact"
-      className="py-16 px-4 sm:px-6 lg:px-16 bg-white flex flex-col lg:flex-row items-center justify-between gap-12"
+      className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 bg-white flex flex-col lg:flex-row items-center justify-between gap-12"
     >
       {/* Left Section */}
       <div className="lg:w-1/2 text-center lg:text-left">

@@ -27,7 +27,7 @@ const AboutPage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            We craft digital experiences that empower businesses to grow, scale, and make an impact in the modern world.
+            "Your All-in-One Partner for Web, Design, 3D & Cloud Solutions"
           </motion.p>
         </div>
       </section>

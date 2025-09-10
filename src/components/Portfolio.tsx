@@ -27,7 +27,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24 bg-[#0d0d0d]">
+    <section className="max-w-7xl mx-auto px-6 pb-24 bg-[#0d0d0d]">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

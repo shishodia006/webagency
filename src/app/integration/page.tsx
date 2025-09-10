@@ -10,16 +10,10 @@ const services = [
     icon: "💻",
   },
   {
-    title: "UI/UX Design & Development",
+    title: "UI/UX Design",
     description:
       "Beautiful, user-friendly, and responsive designs that engage your audience.",
     icon: "🎨",
-  },
-    {
-    title: "3D Modeling & Texturing",
-    description:
-      "High-quality 3D assets for games, films, and AR/VR experiences. Skilled in Autodesk Maya, 3ds Max, ZBrush, and Substance Painter.",
-    icon: "🖌️",
   },
   {
     title: "Cloud & Hosting",
@@ -29,7 +23,12 @@ const services = [
   },
 
   // 🆕 Your Game Artist Services
-
+  {
+    title: "3D Modeling & Texturing",
+    description:
+      "High-quality 3D assets for games, films, and AR/VR experiences. Skilled in Autodesk Maya, 3ds Max, ZBrush, and Substance Painter.",
+    icon: "🖌️",
+  },
   {
     title: "Game Art & Animation",
     description:
@@ -57,9 +56,10 @@ export default function ServicesPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl font-bold mb-4">Our Services</h1>
+        <h1 className="text-5xl font-bold mb-4">Our Integration Services</h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-         "Your All-in-One Partner for Web, Design, 3D & Cloud Solutions"
+          We provide end-to-end digital solutions that help businesses grow,
+          innovate, and succeed in the modern world.
         </p>
       </motion.section>
 
@@ -82,6 +82,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
+
       {/* CTA Section */}
       <motion.section
         className="bg-gradient-to-r from-blue-600 to-indigo-600 py-16 px-6 text-center rounded-t-3xl"
@@ -100,7 +101,7 @@ export default function ServicesPage() {
           href="/contact"
           className="inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-xl shadow-lg hover:scale-105 transition transform"
         >
-          Get in Touch 
+          Get in Touch
         </a>
       </motion.section>
       <Footer />

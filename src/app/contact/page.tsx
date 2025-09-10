@@ -2,12 +2,10 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-
 export default function ContactPage() {
   return (
     <main className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen flex flex-col">
       <Header />
-
       <section className="flex-1 w-full  mx-auto px-6 py-16">
         {/* Heading */}
         <motion.div
@@ -32,33 +30,34 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-           
-
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="text-3xl">📍</div>
-                <div>
-                  <h6 className="font-semibold mb-1">Our Office</h6>
-                  <p className="text-gray-300">Noida, Uttar Pradesh, India</p>
+            <div className="flex items-center  h-screen">
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">📍</div>
+                  <div>
+                    <h6 className="font-semibold mb-1">Our Office</h6>
+                    <p className="text-gray-300">Noida, Uttar Pradesh, India</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-4">
-                <div className="text-3xl">📞</div>
-                <div>
-                  <h6 className="font-semibold mb-1">Phone Number</h6>
-                  <p className="text-gray-300">+91 9520477988</p>
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">📞</div>
+                  <div>
+                    <h6 className="font-semibold mb-1">Phone Number</h6>
+                    <p className="text-gray-300">+91 9520477988</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-4">
-                <div className="text-3xl">📧</div>
-                <div>
-                  <h6 className="font-semibold mb-1">Email Address</h6>
-                  <p className="text-gray-300">b.bhanushishodia123@gmail.com</p>
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">📧</div>
+                  <div>
+                    <h6 className="font-semibold mb-1">Email Address</h6>
+                    <p className="text-gray-300">b.bhanushishodia123@gmail.com</p>
+                  </div>
                 </div>
               </div>
             </div>
+
           </motion.div>
 
           {/* Right Side - Contact Form */}
@@ -68,7 +67,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-           
+
 
             <form className="space-y-6 bg-gray-900/60 backdrop-blur-xl shadow-xl rounded-2xl p-8 border border-gray-700">
               {/* Name */}
@@ -127,7 +126,6 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
-
       {/* Map Section */}
       <motion.section
         className="w-full h-[400px] mt-12 rounded-2xl overflow-hidden shadow-2xl border border-gray-700"
@@ -144,7 +142,6 @@ export default function ContactPage() {
           loading="lazy"
         ></iframe>
       </motion.section>
-
       <Footer />
     </main>
   );

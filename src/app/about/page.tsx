@@ -21,14 +21,17 @@ const AboutPage = () => {
           >
             About Our Agency
           </motion.h1>
-          <motion.p
-            className="text-lg md:text-xl text-gray-100 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
-            "Your All-in-One Partner for Web, Design, 3D & Cloud Solutions"
-          </motion.p>
+        <motion.p
+  className="text-lg md:text-xl text-gray-100 max-w-3xl mx-auto"
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+>
+  &quot;Your All-in-One Partner for Web, Design, 3D &amp; Cloud Solutions&quot;
+</motion.p>
+
+
+          
         </div>
       </section>
 

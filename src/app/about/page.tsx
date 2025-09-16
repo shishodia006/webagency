@@ -1,20 +1,19 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
+import AboutVideoSection from "@/components/AboutVideoSection";
+import Image from "next/image"; 
 const AboutPage = () => {
   return (
     <>
       <Header />
-
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 ">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <motion.h1
-            className="text-4xl md:text-5xl font-extrabold mb-4"
+            className="text-4xl md:text-5xl font-extrabold my-4 pt-7"
             initial={{ opacity: 0, y: -40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -29,12 +28,9 @@ const AboutPage = () => {
 >
   &quot;Your All-in-One Partner for Web, Design, 3D &amp; Cloud Solutions&quot;
 </motion.p>
-
-
-          
-        </div>
+ </div>
       </section>
-
+         <AboutVideoSection />
       {/* Mission & Vision */}
       <section className="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <motion.div
@@ -46,7 +42,7 @@ const AboutPage = () => {
         >
           <h2 className="text-2xl font-bold mb-4 text-blue-600">Our Mission</h2>
           <p className="text-gray-600 text-lg">
-            To deliver innovative web development and design solutions that help businesses achieve their digital goals while ensuring excellence, creativity, and long-term value.
+           To help businesses reimagine and redefine what is possible through digital innovation. Our mission is to create impactful, future-proof digital solutions that drive transformation, provide competitive edge and stand the test of time in a rapidly evolving world.
           </p>
         </motion.div>
 
@@ -59,12 +55,48 @@ const AboutPage = () => {
         >
           <h2 className="text-2xl font-bold mb-4 text-indigo-600">Our Vision</h2>
           <p className="text-gray-600 text-lg">
-            To become a globally recognized digital agency that transforms ideas into impactful solutions while empowering businesses to embrace innovation.
+            To be the global catalyst for digital excellence – where visionary design, intelligent engineering and business strategy converge to build the Future! To build digital solutions that unlock value, inspire innovation, and ultimately redefine industries.
           </p>
         </motion.div>
       </section>
+  {/* Team Section */}
+      <section className="bg-gray-50 py-16">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <motion.h2
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+           Who We Are
+          </motion.h2>
+          <p>Founded in the year 2025, the Web Agency has paved a strong foundation. With successful completion of over 100 projects across diverse verticals, we’re truly spreading our wings. We ensure 100% customer satisfaction with every project that we complete.</p>
 
-      {/* Team Section */}
+        <div className="relative mt-12 mx-auto text-center w-[650px] h-[540px]">
+  <Image 
+    src="/images/industry-img.png" 
+    alt="Industry" 
+    className="mb-5 mx-auto d-block" 
+    width={650} 
+    height={540} 
+  />
+
+  {/* Overlay Texts */}
+  <div className="absolute top-[25%] left-[50%] -translate-x-1/2 text-white font-bold">COMMERCIAL</div>
+  <div className="absolute top-[42%] left-[68%] -translate-x-1/2 text-white font-bold">RESIDENTIAL</div>
+  <div className="absolute top-[69%] left-[76%] -translate-x-1/2 text-white font-bold">EDUCATION</div>
+  <div className="absolute top-[90%] left-[63%] -translate-x-1/2 text-white font-bold">HOSPITALITY</div>
+  <div className="absolute top-[90%] left-[37%] -translate-x-1/2 text-white font-bold">AUTO MOBILE</div>
+  <div className="absolute top-[69%] left-[22%] -translate-x-1/2 text-white font-bold">MARBLE</div>
+  <div className="absolute top-[42%] left-[32%] -translate-x-1/2 text-white font-bold">HEALTHCARE</div>
+</div>
+
+        </div>
+      </section>
+
+
+     {/* Team Section */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <motion.h2
@@ -77,11 +109,13 @@ const AboutPage = () => {
             Meet Our Team
           </motion.h2>
 
-          <div className="grid md:grid-cols-3 gap-10">
+          <div className="grid md:grid-cols-4 gap-10">
             {[
               { name: "Manoj Rana", role: "Founder & CEO" },
-              { name: "Gaurav Rana", role: "3D Artist Level 2" },
+             
               { name: "Bhanu Shishodia", role: "Full Stack Developer" },
+              { name: "Vinayak Baranwal", role: "Technical Content Strategist Linux, DevOps & Server Admin" },
+              { name: "Gaurav Rana", role: "3D Artist Level 2" },
             ].map((member, index) => (
               <motion.div
                 key={index}
@@ -103,7 +137,6 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-indigo-600 to-blue-700 text-center text-white">
         <motion.h2
@@ -124,7 +157,6 @@ const AboutPage = () => {
           Contact Us
         </motion.a>
       </section>
-
       <Footer />
     </>
   );

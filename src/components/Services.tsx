@@ -1,9 +1,7 @@
 // components/Services.tsx
 'use client';
-
-import { motion } from 'framer-motion';
-import { Code, PenTool, Smartphone, TrendingUp } from 'lucide-react';
-
+import { motion } from 'framer-motion';  
+import { Code, PenTool, Smartphone, TrendingUp } from 'lucide-react';         
 const services = [
   {
     title: 'Web Development',
@@ -11,7 +9,7 @@ const services = [
     icon: Code,
   },
   {
-    title: 'UI/UX Design',
+    title: 'UI/UX Design',     
     description: 'Beautiful and user-friendly interfaces built with precision.',
     icon: PenTool,
   },
@@ -39,8 +37,7 @@ export default function Services() {
       >
         Our <span className="text-blue-500">Services</span>
       </motion.h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <motion.div
             key={index}

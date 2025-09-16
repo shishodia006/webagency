@@ -1,6 +1,8 @@
 'use client';
 import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image"; 
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white px-6 py-14">
@@ -8,7 +10,8 @@ export default function Footer() {
         
         {/* Brand */}
         <div>
-          <h3 className="text-2xl font-bold mb-4">WebAgency.Live</h3>
+
+            <Image src="/images/Web Agency logo.png" alt="WebAgency Logo" className=" mb-5" width={150} height={40}/>
           <p className="text-gray-400">Crafting digital experiences that convert, inspire, and lead globally.</p>
         </div>
 

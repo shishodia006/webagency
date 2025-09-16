@@ -1,39 +1,37 @@
 'use client';
-
 import { motion } from 'framer-motion';
-
 const projects = [
   {
     title: "Agency Landing Page",
     category: "Web Design",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/03/35/code-1869236_1280.jpg",
+    image: "https://via.placeholder.com/400x300?text=Agency+Landing+Page",
   },
   {
     title: "SaaS Dashboard",
     category: "Web App",
-    image: "https://cdn.pixabay.com/photo/2017/08/10/03/47/web-2616557_1280.jpg",
+    image: "https://via.placeholder.com/400x300?text=SaaS+Dashboard",
   },
   {
     title: "Mobile App UI",
     category: "Mobile UI",
-    image: "https://cdn.pixabay.com/photo/2020/08/01/09/54/smartphone-5450252_1280.jpg",
+    image: "https://via.placeholder.com/400x300?text=Mobile+App+UI",
   },
   {
     title: "Branding Kit",
     category: "Brand Design",
-    image: "https://cdn.pixabay.com/photo/2017/03/02/09/04/logo-2117857_1280.jpg",
+    image: "https://via.placeholder.com/400x300?text=Branding+Kit",
   },
 ];
 
 export default function Portfolio() {
   return (
-    <section className="max-w-7xl mx-auto px-6 pb-24 bg-[#0d0d0d]">
+    <section className="max-w-7xl mx-auto px-6 py-24 bg-[#0d0d0d]">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-3xl md:text-5xl font-bold text-center mb-12"
+        className="text-3xl md:text-5xl font-bold text-center mb-12 text-white"
       >
         Our <span className="text-blue-500">Work</span>
       </motion.h2>
@@ -59,6 +57,15 @@ export default function Portfolio() {
             </div>
           </motion.div>
         ))}
+      </div>
+
+      <div className="flex justify-center mt-12">
+        <button
+          className="text-lg px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-200 transition"
+          onClick={() => window.location.href = "/contact"}
+        >
+          Get Started
+        </button>
       </div>
     </section>
   );

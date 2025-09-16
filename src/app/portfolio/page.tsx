@@ -1,5 +1,4 @@
 "use client";
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
@@ -78,7 +77,7 @@ export default function PortfolioPage() {
               <div className="overflow-hidden">
                 <Image
                   src={item.image}
-                  alt={item.title}
+                  alt={item.title} width={400} height={225}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
@@ -95,7 +94,6 @@ export default function PortfolioPage() {
           ))}
         </div>
       </section>
-
       <Footer />
     </main>
   );

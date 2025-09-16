@@ -3,27 +3,29 @@
 import { motion } from "framer-motion";
 
 const testimonials = [
+{
+  name: "Divniti Kothari",
+  role: "Senior Research Associate — Politics for Impact",
+  image: "https://www.politicsforimpact.com/static/media/Divniti.b91f7da5af23b1afe0ea.png",
+  quote:
+    "Working with Bhanu and the team at WebAgency.live was an outstanding experience. The designs I provided included several complex layouts and intricate elements, yet he developed everything exactly as envisioned. Not only did he bring the designs to life with precision, but he also added thoughtful touches that elevated the final output. His attention to detail, technical expertise, and commitment to quality truly make him an excellent web developer. Highly recommended!",
+},
+
   {
-    name: "Ananya Sharma",
-    role: "Marketing Head, Digidart",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
-    quote:
-      "They completely transformed our web presence! Fast, reliable and visually stunning results.",
-  },
-  {
-    name: "Ravi Mehra",
-    role: "CTO, TechNova",
+    name: "RS & Associates",
+    role: "founder Rahul Singh",
     image: "https://randomuser.me/api/portraits/men/45.jpg",
     quote:
-      "Working with this team was a game changer. Excellent communication and beautiful UI.",
+      "I hired Bhanu through WebAgency.live for a challenging website rebuild. He translated complex designs into a pixel-perfect, responsive site, communicated clearly at every step, and turned feedback into improvements quickly. The result looked exactly like the mockups — plus thoughtful UX touches I hadn’t considered. Professional, reliable, and highly recommended.",
   },
   {
-    name: "Sarah Jain",
-    role: "Founder, FitFusion",
-    image: "https://randomuser.me/api/portraits/women/33.jpg",
+    name: "Meetanshi Jain",
+    role: "Senior Associate",
+    image: "https://www.politicsforimpact.com/static/media/Divniti.b91f7da5af23b1afe0ea.png",
     quote:
       "Absolutely loved the designs and their dedication. We now stand out from the competition!",
   },
+
 ];
 
 export default function Testimonials() {

@@ -1,15 +1,12 @@
 "use client";
-
 import { useState } from "react";
 import countryList from "react-select-country-list";
 import Select, { SingleValue } from "react-select";
-
-// Types
+// Types for country options for react-select
 type CountryOption = {
   label: string;
   value: string;
 };
-
 interface FormData {
   name: string;
   email: string;
@@ -48,14 +45,14 @@ const ContactUs = () => {
   return (
     <section
       id="contact"
-      className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 bg-white flex flex-col lg:flex-row items-center justify-between gap-12"
+      className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 bg-white flex flex-col lg:flex-row items-center justify-between gap-12 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white"
     >
       {/* Left Section */}
       <div className="lg:w-1/2 text-center lg:text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white-900 mb-4">
           Let’s Talk Business
         </h2>
-        <p className="text-gray-600 text-lg">
+        <p className="text-white-600 text-lg">
           Have an idea or project in mind? We’re here to help you turn it into
           reality.
         </p>

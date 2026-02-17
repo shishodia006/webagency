@@ -8,7 +8,7 @@ import CallToAction from "@/components/CallToAction";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import OfferPopup from "@/components/OfferPopup";
+import OfferPopup from "@/components/OfferPopup";                                                                                                                                                                                                                                                       
 export default function HomePage() {
   return (
     <main className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen">
@@ -23,6 +23,6 @@ export default function HomePage() {
               <FAQ />
               <Contact />
                <Footer />
-    </main>
+       </main>
   );
 }

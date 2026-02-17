@@ -23,7 +23,7 @@ export default function OfferPopup() {
         localStorage.setItem("offerPopupClosed", "true");
     };
 
-    if (!isOpen) return null;
+    if (!isOpen) return null
 
     return (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
@@ -31,7 +31,7 @@ export default function OfferPopup() {
                 {/* Close Button */}
                 <button
                     onClick={handleClose}
-                    className="absolute top-3 right-3 text-gray-500 hover:text-gray-700"
+                    className="absolute top-3 z-50 right-3 text-gray-500 hover:text-gray-700"
                 >
                     <X size={24} />
                 </button>

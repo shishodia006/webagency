@@ -6,7 +6,7 @@ export default function ContactPage() {
   return (
     <main className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white min-h-screen flex flex-col">
       <Header />
-      <section className="flex-1 w-full  mx-auto px-6 py-16">
+      <section className="flex-1 w-full  mx-auto px-6 py-16 mt-7">
         {/* Heading */}
         <motion.div
           className="text-center mb-16"
@@ -14,7 +14,7 @@ export default function ContactPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-5xl font-bold mb-4 mt-7">Contact Us</h1>
           <p className="text-lg text-gray-300">
             Have questions or need help? We’re here to assist you.
           </p>

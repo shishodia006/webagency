@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "D:\\Personal\\webagency-live\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\app\\integration\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\integration\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page_client-reference-manifest.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\app\\about\\page_client-reference-manifest.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\components\\Hero.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Hero.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\types\\cache-life.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\types\\cache-life.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\pages\\_app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\pages\\_app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\pages\\_document.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\pages\\_document.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\_error.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\_error.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\.next\\server\\app\\favicon.ico\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.next\\server\\app\\favicon.ico\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\components\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\app\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -15,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\contact\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\components\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\app\\contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\contact.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\webagency-live\\src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,32 +75,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "page.tsx",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\app\\integration\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\integration\\page.tsx",
+              "ToolTip": "D:\\Personal\\webagency-live\\src\\app\\integration\\page.tsx",
+              "RelativeToolTip": "src\\app\\integration\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-24T07:44:37.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "page.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page.js",
+              "RelativeDocumentMoniker": ".next\\server\\app\\about\\page.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page.js",
+              "RelativeToolTip": ".next\\server\\app\\about\\page.js",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:43:40.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "page_client-reference-manifest.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page_client-reference-manifest.js",
+              "RelativeDocumentMoniker": ".next\\server\\app\\about\\page_client-reference-manifest.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\app\\about\\page_client-reference-manifest.js",
+              "RelativeToolTip": ".next\\server\\app\\about\\page_client-reference-manifest.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:43:37.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_app.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\pages\\_app.js",
+              "RelativeDocumentMoniker": ".next\\server\\pages\\_app.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\pages\\_app.js",
+              "RelativeToolTip": ".next\\server\\pages\\_app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:38:16.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_document.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\pages\\_document.js",
+              "RelativeDocumentMoniker": ".next\\server\\pages\\_document.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\pages\\_document.js",
+              "RelativeToolTip": ".next\\server\\pages\\_document.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:20:51.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "page.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\app\\page.js",
+              "RelativeDocumentMoniker": ".next\\server\\app\\page.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\app\\page.js",
+              "RelativeToolTip": ".next\\server\\app\\page.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:15:16.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "route.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\app\\favicon.ico\\route.js",
+              "RelativeDocumentMoniker": ".next\\server\\app\\favicon.ico\\route.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\app\\favicon.ico\\route.js",
+              "RelativeToolTip": ".next\\server\\app\\favicon.ico\\route.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:15:02.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_error.js",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\server\\_error.js",
+              "RelativeDocumentMoniker": ".next\\server\\_error.js",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\server\\_error.js",
+              "RelativeToolTip": ".next\\server\\_error.js",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-24T07:10:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cache-life.d.ts",
+              "DocumentMoniker": "D:\\Personal\\webagency-live\\.next\\types\\cache-life.d.ts",
+              "RelativeDocumentMoniker": ".next\\types\\cache-life.d.ts",
+              "ToolTip": "D:\\Personal\\webagency-live\\.next\\types\\cache-life.d.ts",
+              "RelativeToolTip": ".next\\types\\cache-life.d.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-24T07:08:20.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Hero.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\components\\Hero.tsx",
               "RelativeDocumentMoniker": "src\\components\\Hero.tsx",
               "ToolTip": "D:\\Personal\\webagency-live\\src\\components\\Hero.tsx",
               "RelativeToolTip": "src\\components\\Hero.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-09-02T06:19:09.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "layout.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\app\\layout.tsx",
               "RelativeDocumentMoniker": "src\\app\\layout.tsx",
               "ToolTip": "D:\\Personal\\webagency-live\\src\\app\\layout.tsx",
               "RelativeToolTip": "src\\app\\layout.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-09-01T12:31:17.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "page.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\app\\contact\\page.tsx",
               "RelativeDocumentMoniker": "src\\app\\contact\\page.tsx",
@@ -72,12 +225,11 @@
               "RelativeToolTip": "src\\app\\contact\\page.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-01T12:06:55.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T12:06:55.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "contact.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\app\\contact.tsx",
               "RelativeDocumentMoniker": "src\\app\\contact.tsx",
@@ -85,25 +237,24 @@
               "RelativeToolTip": "src\\app\\contact.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-01T12:04:17.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T12:04:17.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Contact.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\components\\Contact.tsx",
               "RelativeDocumentMoniker": "src\\components\\Contact.tsx",
               "ToolTip": "D:\\Personal\\webagency-live\\src\\components\\Contact.tsx",
               "RelativeToolTip": "src\\components\\Contact.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-09-01T12:02:41.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "page.tsx",
               "DocumentMoniker": "D:\\Personal\\webagency-live\\src\\app\\page.tsx",
               "RelativeDocumentMoniker": "src\\app\\page.tsx",
@@ -111,8 +262,7 @@
               "RelativeToolTip": "src\\app\\page.tsx",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-01T11:43:37.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T11:43:37.216Z"
             }
           ]
         }

@@ -53,7 +53,7 @@ export default function PortfolioPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl font-bold mb-6">My Portfolio</h1>
+        <h1 className="text-5xl font-bold my-6">My Portfolio</h1>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto">
           A showcase of my work in Web Development, 3D Game Art, Texturing, and
           Digital Design. Each project reflects creativity, skill, and

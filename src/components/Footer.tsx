@@ -53,9 +53,13 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="text-center text-sm text-gray-500 mt-10 border-t pt-6">
-        © {new Date().getFullYear()} WebAgency.Live — All rights reserved.
-      </div>
+    <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-800 pt-6">
+  © {new Date().getFullYear()} WebAgency.Live — All rights reserved. | 
+  <span className="text-white ml-1">
+    Designed & Built by Bhanu Shishodia
+  </span>
+</div>
+
     </footer>
   );
 }

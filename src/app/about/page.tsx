@@ -13,7 +13,7 @@ const AboutPage = () => {
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 ">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <motion.h1
-            className="text-4xl md:text-5xl font-extrabold my-4 pt-7"
+            className="text-4xl md:text-5xl font-extrabold my-5 py-5 pt-7"
             initial={{ opacity: 0, y: -40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -30,7 +30,7 @@ const AboutPage = () => {
           </motion.p>
         </div>
       </section>
-      <AboutVideoSection />
+      {/* <AboutVideoSection /> */}
       {/* Mission & Vision */}
       <section className="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <motion.div

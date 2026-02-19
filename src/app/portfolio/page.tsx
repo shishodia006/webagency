@@ -7,37 +7,33 @@ const portfolioItems = [
   {
     title: "3D Character Modeling",
     category: "Game Art",
-    image: "/portfolio/character.jpg", // replace with your image path
+    image: "https://shishodia.netlify.app/asset/images/3.jpg", // replace with your image path
     description:
       "High-poly and game-ready character created in Autodesk Maya, ZBrush, and textured in Substance Painter.",
   },
   {
     title: "Environment Design",
     category: "3D Art",
-    image: "/portfolio/environment.jpg",
-    description:
-      "Immersive game environment built using Autodesk 3ds Max, textured in Substance Painter, rendered in Marmoset.",
+    image: "https://shishodia.netlify.app/asset/images/2.jpg",
+
   },
   {
     title: "Web Development Project",
     category: "Web",
-    image: "/portfolio/webapp.jpg",
-    description:
-      "Responsive business web application with modern UI/UX and React + Next.js stack.",
+    image: "https://shishodia.netlify.app/asset/images/1.jpg",
+
   },
   {
     title: "Digital Illustration",
     category: "Art & Design",
-    image: "/portfolio/illustration.jpg",
-    description:
-      "Custom illustrations and artworks created in Adobe Illustrator and Photoshop.",
+    image: "https://shishodia.netlify.app/asset/images/4.jpg",
+
   },
   {
     title: "3D Props & Assets",
     category: "Game Art",
-    image: "/portfolio/props.jpg",
-    description:
-      "Game-ready props with optimized topology and realistic texturing.",
+    image: "https://shishodia.netlify.app/asset/images/6.jpg",
+
   },
 ];
 
@@ -74,13 +70,24 @@ export default function PortfolioPage() {
               viewport={{ once: true }}
             >
               {/* Image */}
-              <div className="overflow-hidden">
-                <Image
-                  src={item.image}
-                  alt={item.title} width={400} height={225}
-                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-              </div>
+ <div className="relative w-full h-56 overflow-hidden">
+  <img
+    src={item.image}
+    alt={item.title}
+    className="
+      w-full 
+      min-h-[140%] 
+      object-cover 
+      transition-all 
+      duration-[2000ms] 
+      ease-in-out 
+      group-hover:-translate-y-[35%] 
+      group-hover:scale-105
+    "
+  />
+</div>
+
+
 
               {/* Content */}
               <div className="p-6">

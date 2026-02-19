@@ -2,24 +2,24 @@
 import { motion } from 'framer-motion';
 const projects = [
   {
-    title: "Agency Landing Page",
-    category: "Web Design",
-    image: "https://via.placeholder.com/400x300?text=Agency+Landing+Page",
+    title: "Anantya.ai website",
+    category: "Web Design & Development",
+    image: "https://shishodia.netlify.app/asset/images/3.jpg",
   },
   {
     title: "SaaS Dashboard",
     category: "Web App",
-    image: "https://via.placeholder.com/400x300?text=SaaS+Dashboard",
+    image: "https://shishodia.netlify.app/asset/images/2.jpg",
   },
   {
-    title: "Mobile App UI",
+    title: "Trringme website Redesign",
     category: "Mobile UI",
-    image: "https://via.placeholder.com/400x300?text=Mobile+App+UI",
+    image: "https://shishodia.netlify.app//asset/images/1.jpg",
   },
   {
-    title: "Branding Kit",
+    title: "Bussiness Branding",
     category: "Brand Design",
-    image: "https://via.placeholder.com/400x300?text=Branding+Kit",
+    image: "https://shishodia.netlify.app/asset/images/4.jpg",
   },
 ];
 
@@ -46,11 +46,15 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="rounded-xl overflow-hidden group relative shadow-lg border border-gray-800"
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
-            />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full object-cover transition-transform duration-[2000ms] ease-in-out group-hover:-translate-y-[40%]"
+              />
+            </div>
+
+
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4">
               <h3 className="text-lg font-semibold text-white">{project.title}</h3>
               <p className="text-sm text-gray-400">{project.category}</p>
@@ -59,12 +63,19 @@ export default function Portfolio() {
         ))}
       </div>
 
+
       <div className="flex justify-center mt-12">
         <button
           className="text-lg px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-200 transition"
           onClick={() => window.location.href = "/contact"}
         >
           Get Started
+        </button>
+        <button
+          className="text-lg px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-200 transition ms-5"
+          onClick={() => window.location.href = "/portfolio"}
+        >
+          View All Projects
         </button>
       </div>
     </section>

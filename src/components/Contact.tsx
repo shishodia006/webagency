@@ -48,15 +48,24 @@ const ContactUs = () => {
       className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 bg-white flex flex-col lg:flex-row items-center justify-between gap-12 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white"
     >
       {/* Left Section */}
-      <div className="lg:w-1/2 text-center lg:text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white-900 mb-4">
-          Let’s Talk Business
-        </h2>
-        <p className="text-white-600 text-lg">
-          Have an idea or project in mind? We’re here to help you turn it into
-          reality.
-        </p>
-      </div>
+    <div className="lg:w-1/2 text-center lg:text-left">
+  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+    Let’s Build Something Extraordinary Together
+  </h2>
+
+  <p className="text-gray-300 text-lg mb-4">
+    Have a bold idea or an ambitious project in mind? Our team specializes in 
+    transforming innovative concepts into powerful digital solutions that drive 
+    real business growth.
+  </p>
+
+  <p className="text-gray-400 text-base">
+    From strategy and design to development and deployment, we partner with you 
+    at every step to ensure your vision becomes a scalable, high-impact reality. 
+    Let’s create something that not only looks great — but performs exceptionally.
+  </p>
+</div>
+
 
       {/* Right Section - Form */}
       <div className="lg:w-1/2 w-full bg-gray-50 p-8 rounded-2xl shadow-xl animate-fade-in">

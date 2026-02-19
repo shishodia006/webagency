@@ -4,44 +4,25 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 const services = [
   {
-    title: "Web Development",
+    title: "Google Sheets Integration",
     description:
-      "Custom websites and web apps with modern technologies to scale your business.",
-    icon: "💻",
+      "Automatically capture leads, form submissions, and business data directly into Google Sheets in real-time for seamless tracking and management.",
+    icon: "📊",
   },
   {
-    title: "UI/UX Design",
+    title: "Email Automation",
     description:
-      "Beautiful, user-friendly, and responsive designs that engage your audience.",
-    icon: "🎨",
+      "Instant email notifications and automated responses for leads, inquiries, and customer actions to ensure zero missed opportunities.",
+    icon: "📧",
   },
   {
-    title: "Cloud & Hosting",
+    title: "Lead Management System",
     description:
-      "Secure, scalable, and fast cloud hosting solutions for your business.",
-    icon: "☁️",
-  },
-
-  // 🆕 Your Game Artist Services
-  {
-    title: "3D Modeling & Texturing",
-    description:
-      "High-quality 3D assets for games, films, and AR/VR experiences. Skilled in Autodesk Maya, 3ds Max, ZBrush, and Substance Painter.",
-    icon: "🖌️",
-  },
-  {
-    title: "Game Art & Animation",
-    description:
-      "Creating immersive 3D game environments, props, and characters with strong artistic and design foundation. Trained at MAAC South Ex.",
-    icon: "🎮",
-  },
-  {
-    title: "Digital Art & Editing",
-    description:
-      "Polished visuals with Adobe Illustrator, Photoshop, and Premiere Pro to enhance storytelling and branding.",
-    icon: "✨",
+      "Smart backend integration to organize, store, and manage leads efficiently using Google Sheets and automated email workflows.",
+    icon: "⚙️",
   },
 ];
+
 
 
 export default function ServicesPage() {
@@ -56,7 +37,7 @@ export default function ServicesPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl font-bold mb-4">Our Integration Services</h1>
+        <h1 className="text-5xl font-bold my-5">Our Integration Services</h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto">
           We provide end-to-end digital solutions that help businesses grow,
           innovate, and succeed in the modern world.
